@@ -1,0 +1,82 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.profile-container {
+    text-align: center;
+}
+
+main {
+    box-sizing: border-box;
+    background: white;
+    padding: 15px;
+    margin: 80px auto 0;
+    max-width: 600px;
+}
+
+@media screen and (min-width: 550px) {
+   main {
+       margin: 100px auto 0;
+       padding: 0 30px 25px;
+       border-radius: 5px;
+   }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+article {
+    line-height: 1.4em;
+}
+
+nav.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav.contact a {
+    text-decoration: none;
+    background: #ccc;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: #444;
+    display: block;
+}
+
+@media screen and (min-width: 550px) {
+    nav.contact a {
+        display: inline;
+        margin-bottom: 0;
+        padding: 5px 10px;
+    }
+}
+
+nav.contact a:hover {
+    background: #1CB5E0;
+    color: white;
+}
+
+img.profile {
+    border-radius: 50%;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    margin-top: -75px;
+}
