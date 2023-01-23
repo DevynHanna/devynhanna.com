@@ -6,9 +6,7 @@ body {
 body {
     font-size: 16px;
     color: #333;
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(50vw at 50% 170px, rgb(141, 254, 235) 0%, rgb(232, 176, 254) 90%);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -41,6 +39,11 @@ h1 {
 h2 {
     margin: 0;
     text-align: center;
+    font-size: 15px; 
+}
+h2 a {
+    text-decoration: none;
+    color:#885DF1; 
 }
 
 article {
@@ -79,4 +82,8 @@ img.profile {
     border-radius: 50%;
     box-shadow: 0 3px 5px rgba(0,0,0,0.3);
     margin-top: -75px;
+}
+footer {
+    text-align: center;
+    padding-top: 10px;
 }
