@@ -28,6 +28,7 @@
       src="https://kit.fontawesome.com/351438fd85.js"
       crossorigin="anonymous"
     ></script>
+
     <title>Devyn Hanna - devynhanna.com</title>
     <meta
       name="description"
@@ -35,7 +36,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container navigation-location">
         <a class="navbar-brand" href="index.html">Devyn Hanna</a>
         <button
@@ -53,7 +54,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 aria-current="page"
                 href="index.html"
                 title="homepage"
@@ -66,16 +67,13 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="projects.html"
-                title="Contact Devyn Hanna"
+              <a class="nav-link" href="projects.html" title="Devyn's projects"
                 >Projects</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 href="contact.html"
                 title="Contact Devyn Hanna"
                 >Contact</a
@@ -94,32 +92,37 @@
         </div>
       </div>
     </nav>
-    <main class="container d-flex flex-column justify-content-center h-100">
-      <h1>
-        Hello<span class="period">.</span> <br />
-        I'm <span class="name">Devyn Hanna</span>.
-      </h1>
-      <h2>
-        Front-end developer and
-        <a
-          class="shecodes"
-          href="https://www.shecodes.io/graduates/57574-devyn-hanna"
-          title="Link to Devyn's SheCodes profile"
-          >SheCodes</a
-        >
-        student from Guelph, Ontario.
-      </h2>
+    <main class="background">
+      <div class="container">
+        <h1 class="connect">Let's talk.</h1>
+        <img
+          src="images/pngegg.png"
+          class="contact-image img-fluid"
+          alt="paper plane"
+        />
 
-      <div class="mt-4">
-        <a
-          class="connect-link"
-          href="mailto:devynhanna@gmail.com"
-          title="Email Devyn Hanna"
-          ><i class="fa-solid fa-arrow-right"></i> Contact Me</a
-        >
+        <div class="col-md-6 offset-md-6 contact-info">
+          <h3>Contact Me:</h3>
+          <i class="fa-solid fa-at"></i>
+          <a
+            href="mailto:devynhanna@gmail.com"
+            class="email"
+            title="Email Devyn Hanna"
+            >devynhanna@gmail.com
+          </a>
+          <br />
+          <p><i class="fa-solid fa-location-dot"></i> Guelph, Ontario</p>
+          <a
+            href="https://www.linkedin.com/in/devyn-hanna-397368156/"
+            title="Devyn Hanna's linked in profile"
+            ><i class="fa-brands fa-linkedin contact-icons ms-5"></i
+          ></a>
+          <a href="https://github.com/DevynHanna" title="Link to Devyn's GitHub"
+            ><i class="fa-brands fa-github contact-icons ms-3"></i
+          ></a>
+        </div>
       </div>
     </main>
-
     <footer class="text-center">
       <p>Coded with <span class="heart">&hearts;</span> by Devyn Hanna</p>
     </footer>
