@@ -10,7 +10,7 @@ html {
 .background {
   background-image: linear-gradient(165deg, #ee0a77 50%, #fff calc(50% + 2px));
   border-top: 40px solid var(--brand-pink);
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 966px) {
@@ -135,7 +135,6 @@ h3 {
 img {
   width: 500px;
   height: auto;
-  margin-left: -30px;
 }
 
 .email {
@@ -218,6 +217,16 @@ footer {
   font-size: 20px;
   padding: 5px;
   color: var(--brand-pink);
+}
+
+.footer-source {
+  font-size: 14px;
+}
+
+.footer-source a {
+  text-decoration: none;
+  color: var(--brand-pink);
+  font-size: 14px;
 }
 
 .heart {
